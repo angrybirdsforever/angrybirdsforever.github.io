@@ -1,0 +1,153 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+.box {
+  width: 20%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: auto;
+  top: 40px;
+  background-image: url("../images/PopupWhite.png");
+  background-size: 330px 260px;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 280px;
+  position: relative;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.popup .content {
+  max-height: 300px;
+  overflow: auto;
+}
+
+body {
+   font-family: Verdana;
+    font-weight: normal;
+    font-style: normal;
+    background-image: url("../images/ForeverBackground.png");
+     background-size: 2500px 1600px;
+    background-color:rgb(55, 118, 135);
+    margin: auto;
+    padding: 0;
+}
+
+ul {
+    line-height: 18px;
+    font-size: 15px;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+li {
+    line-height: 18px;
+    font-size: 15px;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    }
+
+p {
+    line-height: 18px;
+    font-size: 15px;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    }
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sp {
+    line-height: 15px;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    vertical-align: middle;
+    padding-left: 14px;
+}
+
+h3 {
+    color: black;
+    font-size: 1.1em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+img {
+    border-style: dashed;
+    border-width: 0px;
+    border-color: #ccc;
+    vertical-align: middle;
+    margin-top: 3px; 
+}
